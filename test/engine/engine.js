@@ -1,13 +1,13 @@
 // @flow
 import EventEmitter from 'events'
 
-import { makeFakeIos, makeContext, destroyAllContexts } from 'airbitz-core-js'
+import { makeFakeIos, makeContext, destroyAllContexts } from 'edge-core'
 import type {
   // AbcSpendInfo,
   AbcWalletInfo,
   AbcCurrencyEngineOptions,
   AbcCurrencyEngineCallbacks
-} from 'airbitz-core-types'
+} from 'edge-core'
 import { assert } from 'chai'
 import { describe, it } from 'mocha'
 import fetch from 'node-fetch'
